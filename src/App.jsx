@@ -13,16 +13,17 @@ function App() {
   }
 
  return (
+   <div className="column-flex align-items-center text-center justify-content-center mt-3">
+     <div className="container-fluid m-7 p-3">
    <div className={`${theme}-theme`}>
-     <div className="text-center">
-     <h1 className="fw-bold m-3 pt-5">Theme switcher</h1>
-     <p>{theme} theme</p>
-     
+     <div className="text-center p-5">
+     <h1 className="fw-bold m-3 pb-2">Theme switcher</h1>
+     <p>{theme} theme</p>     
      <Button variant="success" className="m-3 mb-5" onClick={toggleTheme}>
        Toggle Theme
      </Button>
      </div>
-   </div>
+   </div></div></div>
  );
 }
 
